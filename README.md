@@ -18,3 +18,11 @@ The code was written in C using VScode with IDF plugin framework from espressif.
 
 -*components* folder contains the code for the BME280 sensor. This code is provided by Bosch and you will have 3 files **bme280.h**, **bme280.c** and **bme280_support.c**.
  
+### MQTT broker 
+
+The broker used in this proyect was MQTTX. After you download and intalling in your computer you need to setup the connections to obtain the broker address and make the connections in the **main.c** file
+![alt text](image-1.png)
+
+With this parameters you can create the connections with the broker with an address in this format:
+
+               ws://broker.emqx.io:1083/mqtt
