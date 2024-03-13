@@ -50,6 +50,7 @@ For "mqtt in" you need to setup the following parameters:
 *topic*: topic that you want to suscribe
 
 And for "influxdb out":
+
 ![alt text](influxout.png)
 
 *organization*: organization configurated in you influxdb
