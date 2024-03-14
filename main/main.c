@@ -29,8 +29,8 @@
 static const char *TAG = "MQTT_EXAMPLE";
 #define TAG_BME280 "BME280"
 
-#define EXAMPLE_ESP_WIFI_SSID "Totalplay-79A3"
-#define EXAMPLE_ESP_WIFI_PASS "79A366488dErcEwR"
+#define EXAMPLE_ESP_WIFI_SSID "WIFI_SSID"
+#define EXAMPLE_ESP_WIFI_PASS "WIFI_PASS"
 #define MAX_RETRY 10
 static int retry_cnt = 0;
 
